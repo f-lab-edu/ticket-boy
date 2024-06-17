@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.example.ticketboy-flab.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.example.ticketboy-flab.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/ticketboy-flab/ticketboy-flab.iml" filepath="$PROJECT_DIR$/ticketboy-flab/ticketboy-flab.iml" />
     </modules>
   </component>
