@@ -1,3 +1,6 @@
+server:
+  port: 8092
+
 spring:
   # DB?? ??
   datasource:
@@ -5,8 +8,12 @@ spring:
     url: jdbc:mysql://localhost:3306/testdb
     username: root
     password: root
+  thymeleaf:
+    cache: false
   # JPA ??
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
     show-sql: true
+    database-platform:
+    open-in-view: false
